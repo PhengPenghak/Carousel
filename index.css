@@ -1156,7 +1156,7 @@ label {
   background-color: #fbbc3c;
   border: 2px solid #fbbc3c;
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 .thumtitle__img {
   border: 20px solid white;
@@ -1168,6 +1168,33 @@ label {
   width: 200px;
 }
 .swiper {
-  height: 50px;
-  top: 50px;
+  height: 100px;
+}
+
+
+.dropdown-menu-right {
+  right: 0;
+  left: auto;
+}
+
+.slider-size {
+  padding: 15px 30px;
+}
+
+.swiper-button-prev {
+  left: 0px;
+}
+.swiper-button-next {
+  right: 0px;
+}
+.swiper-button-prev, .swiper-button-next {
+  background-color: #fff;
+  width: 32px;
+  height: 32px;
+  color: #5d6671;
+  border: 1px solid rgba(0,0,0,.075);
+  border-radius: 100%;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 1em;
 }
