@@ -3,9 +3,11 @@ o@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,
 body {
   font-family: "Ubuntu", sans-serif;
   font-size: 13px;
-  background-color: #f0f2f5;
+  background-color: white
 }
-
+.fixed-bottom-padding{
+  background-color:whitesmoke
+}
 /* Top bar */
 .top-bar {
   background-color: #f0f2f5;
@@ -450,7 +452,9 @@ span.c-number {
   width: 90px;
   height: 34px;
 }
-
+.list-card-image{
+  background-color:#fff;
+}
 /* List Page */
 .border-custom-radio .custom-control-label::before {
   width: 100%;
@@ -704,7 +708,9 @@ label {
 .fixed-bottom-padding .theme-switch-wrapper {
   bottom: 70px;
 }
-
+.col-12 col-md-4 mb-2{
+  width: 200px;
+}
 .theme-switch {
   width: 40px;
   height: 40px;
@@ -1097,7 +1103,7 @@ label {
 }
 
 /*Mobile Media */
- /* @media (max-width: 992px) {
+  @media (max-width: 992px) {
   .osahan-main-nav {
     display: none;
   }
@@ -1121,7 +1127,7 @@ label {
   }
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .container,
   .container-md,
   .container-sm {
@@ -1144,7 +1150,7 @@ label {
 
 .carousel-cell {
   margin-right: 5px;
-}  */
+}   */
 
 /* cell number */
 
@@ -1157,6 +1163,9 @@ label {
   border: 2px solid #fbbc3c;
   padding: 10px;
   border-radius: 5px;
+}
+.custom-select{
+  font-size: 15px;
 }
 .thumtitle__img {
   border: 20px solid white;
@@ -1197,4 +1206,59 @@ label {
 }
 .swiper-button-next:after, .swiper-button-prev:after {
   font-size: 1em;
+  
+ }
+ .owl-nav button{
+  padding: 15px 30px;
+  
+
+} 
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 38%;
+  font-size: 2rem;
+  line-height: .7;
 }
+.owl-prev{
+  left: -3%;
+ 
+  
+}
+.owl-next{
+  right: -3%;  
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    background-size: 6px;
+    width: 34px;
+    border-radius: 50px;
+    height: 34px;
+    margin: 0 8px;
+    background-color: #fff;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border: 1px solid #e4e7ea;
+    z-index: 9;
+}
+.owl-carousel .owl-nav button.owl-next::after, .owl-carousel .owl-nav button.owl-prev::after{
+  font-size: 2rem;
+ color: blue;
+}
+.flickity-prev-next-button{
+  display: block;
+}
+.form-inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center; 
+}
+.usa{
+  display: flex;
+}
+.u,.b{
+  margin: 5px;
+  padding: 3px;
+ border-radius: 1rem;
+
+}
+

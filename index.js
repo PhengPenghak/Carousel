@@ -1,32 +1,32 @@
-$(".owl-carousel").owlCarousel({
+$('.owl-carousel').owlCarousel({
   loop: true,
-  margin: 10,
+  margin: 15,
   nav: true,
+  dots:false,
   responsive: {
     0: {
-      items: 1,
+      items: 1
     },
     600: {
-      items: 1,
+      items: 1
     },
     1000: {
-      items: 3,
-    },
-  },
-});
-$(".slide-one .owl-carousel").owlCarousel({
+      items: 3
+    }
+  }
+})
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
   loop: true,
-  margin: 10,
-  nav: true,
-  responsive: {
-    0: {
-      items: 1,
-    },
-    600: {
-      items: 8,
-    },
-    1000: {
-      items: 8,
-    },
+  spacebetween: 8,
+  slidesPerView: 8,
+  freeModel: true,
+  loopAdditionalslides: 4,
+  speed: 500,
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
+
